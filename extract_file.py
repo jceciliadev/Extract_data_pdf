@@ -1,4 +1,3 @@
-
 from PIL.ExifTags import TAGS
 from PIL import Image
 from io import StringIO
@@ -7,6 +6,7 @@ import re
 import os
 import glob
 
+#Rutas de Imagenes y Pdfs
 path_img = "/home/shanks/Documentos/AppZurich/Docs/Traducir/IMG_Traducir/preview.jpg"
 
 path_pdf = '/home/shanks/Documentos/CHV_Consulting/ReadingTextEcuador/data_pdf/data'
